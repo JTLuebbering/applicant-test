@@ -23,14 +23,20 @@
   <link rel="stylesheet" type="text/css" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
 
   <link type="text/css" href="https://cdn.datatables.net/1.10.12/css/dataTables.bootstrap.min.css">
-
+  <link href="../applicant-test-master/views/pages/style.css"
+    rel="stylesheet" type="text/css" media="screen" />
 
   </head>
   <body>
+<div id="header">
+  <img src="../applicant-test-master/views/headerImage.jpg"
+      style="width:800px;height:128px; display:block; margin:auto">
+</div>
   <div class="container">
 <nav class="navbar navbar-inverse">
   <div class="container-fluid">
     <div class="navbar-header">
+      <div class="headerImage.jpg"></div>
       <a class="navbar-brand" href="#">Summer Breeze</a>
     </div>
     <ul class="nav navbar-nav">
@@ -46,8 +52,6 @@
     
     <?php require_once('routes.php'); ?>
     
-
-
     <footer>
       PHP Test project
     </footer>
